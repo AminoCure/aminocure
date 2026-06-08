@@ -1,7 +1,67 @@
-<img src="20260608_122054.png" usemap="#image-map">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amino Cure | تواصل معنا</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0b0f19; /* لون خلفية فخم يتماشى مع براند أمينو كيور */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px; /* مقاس مثالي للهواتف */
+            position: relative;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        /* تأثير فخم عند لمس الأزرار على الهاتف */
+        area {
+            -webkit-tap-highlight-color: rgba(0, 174, 239, 0.3); /* ومضة زرقاء شفافة عند اللمس */
+        }
+        .instruction-text {
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            animation: pulse 2s infinite; /* حركة نبض خفيفة لجذب الانتباه */
+        }
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; color: #00aeef; }
+            100% { opacity: 0.6; }
+        }
+    </style>
+</head>
+<body>
 
-<map name="image-map">
-    <area target="" alt="إستشاره مجانيه" title="إستشاره مجانيه" href="https://wa.me/201556237027" coords="93,1548,1016,1321" shape="rect">
-    <area target="" alt="" title="" href="https://www.facebook.com/profile.php?id=61567925348751" coords="389,2619,63" shape="circle">
-    <area target="" alt="" title="" href="https://www.instagram.com/amin.8os?igsh=c2JuZXp1NDNrZmI2" coords="697,2623,59" shape="circle">
-</map>
+    <div class="container">
+        <img src="20260608_122054.png" usemap="#image-map" alt="Amino Cure Links">
+
+        <map name="image-map">
+            <area target="_blank" alt="إستشاره مجانيه" title="إستشاره مجانيه" href="https://wa.me/201556237027" coords="93,1548,1016,1321" shape="rect">
+            <area target="_blank" alt="فيسبوك" title="فيسبوك" href="https://www.facebook.com/profile.php?id=61567925348751" coords="389,2619,63" shape="circle">
+            <area target="_blank" alt="إنستغرام" title="إنستغرام" href="https://www.instagram.com/amin.8os?igsh=c2JuZXp1NDNrZmI2" coords="697,2623,59" shape="circle">
+        </map>
+
+        <div class="instruction-text">
+            👇 انقر مباشرة على الأيقونات داخل الصورة للتواصل عدييل 👇
+        </div>
+    </div>
+
+</body>
+</html>
